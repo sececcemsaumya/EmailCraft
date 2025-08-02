@@ -99,7 +99,7 @@ export default function TemplateList() {
             <div className="template-info">
               <h3>{template.title || "Untitled"}</h3>
               <p>{template.subject || "No subject available."}</p>
-              <p className="author">Designed by CreativeStudio</p>
+              <p className="author">Designed by CraftMail</p>
               <button onClick={() => setEditingTemplate(template)} className="edit-button">Edit</button>
             </div>
           </div>
